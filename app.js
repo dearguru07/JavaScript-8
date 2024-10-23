@@ -1,7 +1,7 @@
 // -------reduces-----------
 
-let numbers=[1,2,3,4,5,6,7,8,9,25,4,8,2,55,58]
-
+// let numbers=[1,2,3,4,5,6,7,8,9,25,4,8,2,55,58]
+// console.log(numbers)
 // let result=numbers.reduce((max,curr)=>{
 // if(curr>max){
 //   max=curr
@@ -13,6 +13,7 @@ let numbers=[1,2,3,4,5,6,7,8,9,25,4,8,2,55,58]
 // 1)---------highvalue----------
 
 // let result=numbers.reduce((x,y)=>{
+    
 // if (x<y){
 //   x=y
 // }
@@ -53,3 +54,14 @@ let numbers=[1,2,3,4,5,6,7,8,9,25,4,8,2,55,58]
 
 
 // ------------document Object Model--------------
+
+
+var n=2
+function data(num){
+    var ans=num*num
+    return ans
+}
+var res=data(n)
+var ress=data(4)
+console.log(res)
+console.log(ress)
