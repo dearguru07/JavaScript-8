@@ -56,12 +56,27 @@
 // ------------document Object Model--------------
 
 
-var n=2
-function data(num){
-    var ans=num*num
-    return ans
+// var n=2
+// function data(num){
+//     var ans=num*num
+//     return ans
+// }
+// var res=data(n)
+// var ress=data(4)
+// console.log(res)
+// console.log(ress)
+
+
+var x=1
+a()
+b()
+console.log(x)
+
+function a(){
+    var x=10
+    console.log(x)
 }
-var res=data(n)
-var ress=data(4)
-console.log(res)
-console.log(ress)
+function b(){
+    var x=100
+    console.log(x)
+}
