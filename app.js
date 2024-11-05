@@ -67,16 +67,49 @@
 // console.log(ress)
 
 
-var x=1
-a()
-b()
-console.log(x)
+// var x=1
+// a()
+// b()
+// console.log(x)
 
-function a(){
-    var x=10
-    console.log(x)
+// function a(){
+//     var x=10
+//     console.log(x)
+// }
+// function b(){
+//     var x=100
+//     console.log(x)
+// }
+
+
+// let a =45
+// console.log(typeof(a))
+// console.log(5 + '5'); // Outputs: "55"
+
+
+// let age=7
+// let res=age==1 ?"Telugu":age==2?"English":age==3?"tamil":age==4?"kannada":"malayalam"
+// console.log(res)
+
+
+function Click(){
+let input=document.getElementById('input').value
+n=input
+if(n==1){
+    console.log('Telugu')
 }
-function b(){
-    var x=100
-    console.log(x)
+else if(n==2){
+console.log('Tamil')
 }
+else if(n==3){
+    console.log('English')
+}
+else if(n==4){
+    console.log('Kannada')
+}
+else{
+    console.log('Malayalam')
+}
+}
+
+
