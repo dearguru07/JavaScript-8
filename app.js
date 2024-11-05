@@ -92,6 +92,7 @@
 // console.log(res)
 
 
+
 function Click(){
 let input=document.getElementById('input').value
 n=input
@@ -113,3 +114,15 @@ else{
 }
 
 
+
+console.log(name)
+var name='Gurucharamn'
+
+console.log(data)
+var data=5581
+
+Guru()
+
+function Guru(){
+    console.log("heloo world.........")
+}
