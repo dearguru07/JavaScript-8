@@ -13,7 +13,7 @@
 // 1)---------highvalue----------
 
 // let result=numbers.reduce((x,y)=>{
-    
+
 // if (x<y){
 //   x=y
 // }
@@ -51,10 +51,7 @@
 // })
 // console.log(result)
 
-
-
 // ------------document Object Model--------------
-
 
 // var n=2
 // function data(num){
@@ -65,7 +62,6 @@
 // var ress=data(4)
 // console.log(res)
 // console.log(ress)
-
 
 // var x=1
 // a()
@@ -81,48 +77,108 @@
 //     console.log(x)
 // }
 
-
 // let a =45
 // console.log(typeof(a))
 // console.log(5 + '5'); // Outputs: "55"
-
 
 // let age=7
 // let res=age==1 ?"Telugu":age==2?"English":age==3?"tamil":age==4?"kannada":"malayalam"
 // console.log(res)
 
+// function Click(){
+// let input=document.getElementById('input').value
+// n=input
+// if(n==1){
+//     console.log('Telugu')
+// }
+// else if(n==2){
+// console.log('Tamil')
+// }
+// else if(n==3){
+//     console.log('English')
+// }
+// else if(n==4){
+//     console.log('Kannada')
+// }
+// else{
+//     console.log('Malayalam')
+// }
+// }
+
+// console.log(name)
+// var name='Gurucharamn'
+
+// console.log(data)
+// var data=5581
+
+// Guru()
+
+// function Guru(){
+//     console.log("heloo world.........")
+// }
+
+// function* generator(){
+//     yield 1
+//     yield 2
+//     yield 5
+// }
+// const res=generator()
+// console.log(res.next())
+// console.log(res.next())
+// console.log(res.next())
+// console.log(res.next())
+
+// const str="Hello world aeiou"
+// const res=['a','e','i','o','u']
+// const cout=str.split('').filter((x)=>{
+//     return res.includes(x.toLocaleLowerCase)
+// })
+// console.log("hello")
+// console.log(cout.length)
+
+// let a=7
+// let res=a>5?'telugu':'english'
+// console.log(res)
+
+// let arry=[1,5,7,8,9,5,4,7,0]
+// // console.log(arry[2])
+// arry[1]=44
+// console.log(arry[0]=8)
+// arry.pop(47)
+// console.log(arry)
+
+// let fruits = ["apple", "banana"];
+// fruits.push("orange");
+// console.log(fruits);
+
+// let body=document.getElementById('body')
+// let heading=document.createElement('h1')
+// heading.innerHTML='Hello world ........'
+// body.appendChild(heading)
+
+// const a=[1,5,4,7,8]
+// console.log(a.length)
+
+// const a='Hello world..'
+// const res=a.replace('Hello',"Namastee")
+// console.log(res)
+
+// const str = "   Hello, world!   ";
+// const result = str.trim(); // "Hello, world!"
+// console.log(result)
+
+// const str = "   Hello, world!   ";
+// const trimmedStart = str.trimStart(); // "Hello, world!   "
+// const trimmedEnd = str.trimEnd();     // "   Hello, world!"
 
 
-function Click(){
-let input=document.getElementById('input').value
-n=input
-if(n==1){
-    console.log('Telugu')
+function greet(name) {
+  console.log("Hello, " + name);
 }
-else if(n==2){
-console.log('Tamil')
-}
-else if(n==3){
-    console.log('English')
-}
-else if(n==4){
-    console.log('Kannada')
-}
-else{
-    console.log('Malayalam')
-}
+
+function sayHello(callback) {
+  const name = "Alice";
+  callback(name);
 }
 
-
-
-console.log(name)
-var name='Gurucharamn'
-
-console.log(data)
-var data=5581
-
-Guru()
-
-function Guru(){
-    console.log("heloo world.........")
-}
+sayHello(greet); // Output: "Hello, Alice"
