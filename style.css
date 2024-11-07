@@ -32,3 +32,22 @@ input::placeholder {
     background-color: rgb(213, 74, 28);
     color: black;
 }
+
+
+/* --------------- */
+.text-conn{
+    width: 600px;
+    margin: 20px auto;
+    height: 300px;
+    display: flex;
+}
+.bg{
+    background-color: rgb(237, 189, 14);
+    width: 50%;
+    /* height: 250px; */
+}
+.gbc{
+    background-color: red;
+    /* height: 250px; */
+    width: 50%;
+}
