@@ -171,7 +171,6 @@
 // const trimmedStart = str.trimStart(); // "Hello, world!   "
 // const trimmedEnd = str.trimEnd();     // "   Hello, world!"
 
-
 // function greet(name) {
 //   console.log("Hello, " + name);
 // }
@@ -182,8 +181,6 @@
 // }
 
 // sayHello(greet); // Output: "Hello, Alice"
-
-
 
 // function Download(){
 //   console.log('One')
@@ -201,10 +198,9 @@
 //   }).catch(()=>{
 //     console.log('new error is cooured')
 //   })
- 
+
 // }
 // Download()
-
 
 // function Download(){
 //   let data=fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.0445612&lng=77.57268839999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING")
@@ -219,12 +215,11 @@
 // Download()
 
 
-function track(){
-var count=0
-  let hover=document.getElementById('colr')
-  console.log('u visited thuis site')
-  hover.style.backgroundColor="skyblue"
-  let count=count+1
-  console.log(count)
+function track() {
+  var count = 0;
+  let hover = document.getElementById("colr");
+  console.log("u visited thuis site");
+  hover.style.backgroundColor = "skyblue";
+  let count = count + 1;
+  console.log(count);
 }
-
